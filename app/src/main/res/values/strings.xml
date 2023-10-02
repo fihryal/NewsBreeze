@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsBreeze</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="getting_news">Getting News....</string>
+    <string name="content_dest_image_news_item">content_dest_image_news_item</string>
+    <string name="image_news_in_detail">Image News In Detail</string>
+    <string name="search">search</string>
+</resources>
