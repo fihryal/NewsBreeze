@@ -52,6 +52,7 @@ class NewsAdapter:RecyclerView.Adapter<NewsAdapter.MyViewHolder>() {
         holder.binding.apply{
             itemTitle.text = data.title
             itemDate.text = publishedResult
+            itemAuthor.text = data.author
             Picasso.get().load(data.urlToImage).into(itemImage)
         }
             holder.itemView.setOnClickListener{

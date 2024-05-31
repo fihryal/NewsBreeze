@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
             tab.text =listFragment[position]
         }.attach()
 
+
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

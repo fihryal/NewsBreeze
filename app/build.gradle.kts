@@ -8,13 +8,13 @@ plugins {
 
 android {
     namespace = "com.faqiy.newsbreeze"
-    compileSdkPreview = "UpsideDownCake"
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.faqiy.newsbreeze"
-        minSdk = 33
+        minSdk = 28
         targetSdk = 33
-        versionCode = 1
+        versionCode = 3
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
